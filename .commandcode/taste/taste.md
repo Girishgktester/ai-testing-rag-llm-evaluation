@@ -1,0 +1,1 @@
+- Prefers code that is simple and easy to read; dislikes code that "looks complex" and asks for simplification. Confidence: 0.8
