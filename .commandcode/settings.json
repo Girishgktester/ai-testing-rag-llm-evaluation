@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "Shell(python -c \"import json,sys; nb=json.load(open(r'notebooks/Untitled-1.ipynb',encoding='utf-8')); [print(c['cell_type'], c['id'], 'SRC=',repr(c['source'])[:300]) for c in nb['cells']]\")",
-      "Shell(python \"C:\\Users\\GIRISH~1\\AppData\\Local\\Temp\\commandcode\\C--Users-Girish-Kulkarni-OneDrive-Documents-LLM-Testing\\0a75e2d7-512b-4fd3-a078-77ad0dfdf044\\scratchpad\\simplify_nb.py\")"
+      "Shell(python \"C:\\Users\\GIRISH~1\\AppData\\Local\\Temp\\commandcode\\C--Users-Girish-Kulkarni-OneDrive-Documents-LLM-Testing\\0a75e2d7-512b-4fd3-a078-77ad0dfdf044\\scratchpad\\simplify_nb.py\")",
+      "Shell(type .env 2>nul & echo --- & type .env.example 2>nul)",
+      "powershell",
+      "Shell(curl -s -i -H \"CONFIDENT-API-KEY: confident_us_org_jbozDflsejxEyX7ZNwmY87U842IHYbiq0SRtNaNbS8k=\" -H \"Content-Type: application/json\" https://api.confident-ai.com/v1/metrics)",
+      "Shell(curl -s -H \"CONFIDENT-API-KEY: api\" -H \"Content-Type: application/json\" https://api.confident-ai.com/v1/metrics)",
+      "Shell(curl -s -H \"CONFIDENT-API-KEY: confident_us_org_NHht57CCvOgImQTSbOyyNAZoGV8FTpygLWdztL0wBoE=\" -H \"Content-Type: application/json\" https://api.confident-ai.com/v1/metrics)",
+      "Shell(curl -s -H \"CONFIDENT-API-KEY: confident_us_org_IZyOSc2/zNAN2UjpplioCyRxm3EzS6BMlyvO9XnNpM4=\" -H \"Content-Type: application/json\" https://api.confident-ai.com/v1/metrics)",
+      "Shell(dir /a \"C:\\Users\\Girish Kulkarni\\.deepeval\" 2>nul & echo --- & dir /a \"C:\\Users\\Girish Kulkarni\\OneDrive\\Documents\\LLM_Testing\\.deepeval\")",
+      "Shell(python -c \"import portalocker; print(portalocker.__version__ if hasattr(portalocker,'__version__') else 'ok')\" 2>&1; echo ---; python -c \"import deepeval; print(deepeval.__version__)\" 2>&1)",
+      "Shell(.venvScriptspython.exe:*)",
+      "Shell(.venv\\Scripts\\python.exe -c \"import langchain_openai; print('langchain_openai ok')\" 2>&1; .venv\\Scripts\\python.exe -c \"import openai; print('openai', openai.__version__)\" 2>&1)",
+      "Shell(.venv\\Scripts\\python.exe -c \"import openai; print('openai', openai.__version__)\" 2>&1; .venv\\Scripts\\python.exe -m pip show langchain-openai 2>&1 | findstr /i \"Name Version\")"
     ],
     "deny": [],
     "defaultMode": "default"

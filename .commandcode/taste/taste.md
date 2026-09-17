@@ -1,1 +1,3 @@
 - Prefers code that is simple and easy to read; dislikes code that "looks complex" and asks for simplification. Confidence: 0.8
+- Prefers using OpenAI API models over local Ollama for LLM calls/evaluation. Confidence: 0.7
+- Gets lost with dense multi-step instructions; prefers concrete, step-by-step guidance and either/or questions over long explanations. Confidence: 0.5
