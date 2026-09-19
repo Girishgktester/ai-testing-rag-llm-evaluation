@@ -1,5 +1,6 @@
 - Prefers code that is simple and easy to read; dislikes code that "looks complex" and asks for simplification. Confidence: 0.8
-- Prefers using OpenAI API models over local Ollama for LLM calls/evaluation. Confidence: 0.7
+- Prefers using OpenAI API models over local Ollama for LLM calls/evaluation. Confidence: 0.9
 - Gets lost with dense multi-step instructions; prefers concrete, step-by-step guidance and either/or questions over long explanations. Confidence: 0.5
 - When committing/pushing code, wants environment files (.env), virtual environments (.venv), and generated test-result/cache files excluded from git. Confidence: 0.8
 - Dislikes slow, overcomplicated fixes for small issues; expects simple tasks to be resolved quickly in one clean pass rather than many exploratory iterations. Confidence: 0.7
+- When the assistant modifies files/notebooks, wants to be told the exact location of the change (file path, position/cell index, and an identifying marker) so it can be found quickly. Confidence: 0.5
