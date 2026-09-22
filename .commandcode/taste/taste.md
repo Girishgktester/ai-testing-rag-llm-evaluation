@@ -5,3 +5,4 @@
 - Dislikes slow, overcomplicated fixes for small issues; expects simple tasks to be resolved quickly in one clean pass rather than many exploratory iterations. Confidence: 0.7
 - When the assistant modifies files/notebooks, wants to be told the exact location of the change (file path, position/cell index, and an identifying marker) so it can be found quickly. Confidence: 0.5
 - When golden-based tests fail, prefers fixing them by updating the golden/expected test data to correct values rather than changing the implementation or validation logic. Confidence: 0.5
+- Stores API keys and secrets in `.env` files (e.g., `notebooks/.env`) and expects notebooks/scripts to load them via `load_dotenv` rather than hardcoding keys inline. Confidence: 0.7
